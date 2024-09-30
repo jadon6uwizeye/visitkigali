@@ -16,7 +16,7 @@ class PlacesListScreen extends StatelessWidget {
         'detailedDescription':
             'The Kigali Convention Centre is a state-of-the-art conference center located in the heart of Kigali. It is a popular venue for conferences, meetings, and other events. The center features modern facilities, including meeting rooms, exhibition halls, and a large auditorium. The Kigali Convention Centre is also home to several restaurants and cafes, making it a convenient and comfortable place to host events. The center is located in the heart of Kigali, close to many hotels, restaurants, and other attractions. It is easily accessible by car or public transportation, making it a convenient choice for event organizers and attendees.',
         'price': '\$100',
-        'imageUrl': 'https://www.kcc.rw/uploads/9/8/2/4/98249186/illume_orig.jpg',
+        'imageUrl': 'assets/illume_orig.jpg',
       },
       {
         'name': 'Gisozi memorial sites',
@@ -27,8 +27,7 @@ class PlacesListScreen extends StatelessWidget {
         'detailedDescription':
             'Between April and July 1994, an estimated one million people were killed across Rwanda by armed militias called Interahamwe that targeted Tutsi, but also executed moderate Hutu and Twa people. The victims of the genocide are commemorated in this serial property composed of four memorial sites. Two of the component parts were scenes of massacres: a Catholic church built in the hill of Nyamata in 1980, and a technical school built in the hill of Murambi in 1990. The hill of Gisozi in Kigali City hosts the Kigali Genocide Memorial built in 1999, where more than 250,000 victims have been buried, while the hill of Bisesero in the Western Province hosts a memorial built in 1998, to remember the fight of those who resisted their perpetrators for over two months before being exterminated.',
         'price': '\$50',
-        'imageUrl':
-            'https://rwandaecocompany.com/wp-content/uploads/2022/04/inside-memorial-grounds.jpg',
+        'imageUrl': 'assets/inside-memorial-grounds.jpg',
       },
       {
         'name': 'Tedgas Recreation Center',
@@ -40,7 +39,7 @@ class PlacesListScreen extends StatelessWidget {
         'detailedDescription':
             'Tedgas Recreation Center is a recreational facility that offers a wide range of activities for visitors of all ages. The center features a variety of attractions, including a swimming pool, a gym, and a children\'s play area. There are also several restaurants and cafes where visitors can enjoy a meal or a snack. Tedgas Recreation Center is a popular destination for families and tourists, and it is a great place to spend a day relaxing and having fun. The center is located in the heart of Kigali, close to many hotels and other attractions. It is easily accessible by car or public transportation, making it a convenient choice for visitors.',
         'price': '\$50',
-        'imageUrl': 'https://i.ytimg.com/vi/zQ_f_exOG5s/maxresdefault.jpg',
+        'imageUrl': 'assets/maxresdefault.jpg',
       },
       {
         'name': 'Nyandungu eco park',
@@ -53,7 +52,7 @@ class PlacesListScreen extends StatelessWidget {
             'Nyandungu eco park is a recreational facility that offers a wide range of activities for visitors of all ages. The park features a variety of attractions, including a swimming pool, a gym, and a children\'s play area. There are also several restaurants and cafes where visitors can enjoy a meal or a snack. Nyandungu eco park is a popular destination for families and tourists, and it is a great place to spend a day relaxing and having fun. The park is located in the heart of Kigali, close to many hotels and other attractions. It is easily accessible by car or public transportation, making it a convenient choice for visitors.',
         'price': '\$50',
         'imageUrl':
-            'https://www.newtimes.co.rw/uploads/imported_images/files/main/articles/2021/08/18/a_view_of_the_main_gate_of_nyandungu_urban_wetland_eco_tourism_park_on_august_18_sam_ngendahimana_1.jpg',
+            'assets/a_view_of_the_main_gate_of_nyandungu_urban_wetland_eco_tourism_park_on_august_18_sam_ngendahimana_1.jpg',
       },
       {
         'name': 'Fazenda Sengha',
@@ -66,7 +65,7 @@ class PlacesListScreen extends StatelessWidget {
             'Fazenda Sengha is a vibrant art gallery that showcases the work of local and international artists. The gallery features a wide range of art, including paintings, sculptures, and installations. There are also regular exhibitions and events that highlight the work of emerging artists. Fazenda Sengha is a popular destination for art lovers and collectors, and it is a great place to discover new talent and add to your collection. The gallery is located in the heart of Kigali, close to many hotels and other attractions. It is easily accessible by car or public transportation, making it a convenient choice for visitors.',
         'price': '\$50',
         'imageUrl':
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLk1bu4V5gVtMInNFhNAWpBIjQFG3XxizjYA&s',
+            'assets/images.jpeg',
       },
       {
         'name': 'Kigali Golf Club',
@@ -78,7 +77,7 @@ class PlacesListScreen extends StatelessWidget {
         'detailedDescription':
             'The Kigali Golf Club is a premier golf course that offers a challenging and scenic golfing experience. The club features an 18-hole course that is suitable for golfers of all skill levels. There are also practice facilities, including a driving range and putting green. The Kigali Golf Club is a popular destination for both locals and tourists, and it is a great place to spend a day on the links. The club is located in the heart of Kigali, close to many hotels and other attractions. It is easily accessible by car or public transportation, making it a convenient choice for golfers.',
         'price': '\$50',
-        'imageUrl': 'https://picsum.photos/id/242/200/300',
+        'imageUrl': 'assets/images-golf.jpeg',
       },
       {
         'name': 'Kigali Arena',
@@ -91,7 +90,7 @@ class PlacesListScreen extends StatelessWidget {
             'The Kigali Arena is a state-of-the-art sports arena that hosts a wide range of sporting events and concerts. The arena features a large seating capacity and modern facilities, making it a popular venue for basketball games, volleyball matches, and other sporting events. The Kigali Arena is also a popular concert venue, hosting performances by local and international artists. The arena is located in the heart of Kigali, close to many hotels and other attractions. It is easily accessible by car or public transportation, making it a convenient choice for sports fans and concert-goers.',
         'price': '\$50',
         'imageUrl':
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQghMLp500b0aoOSVbIwInre_KsQm-SOWgRgg&s',
+            'assets/images-arena.jpeg',
       },
       {
         'name': 'Kigali Public Library',
@@ -103,7 +102,7 @@ class PlacesListScreen extends StatelessWidget {
         'detailedDescription':
             'The Kigali Public Library is a modern library that offers a wide range of books and resources for the community. The library features a large collection of books, including fiction, non-fiction, and reference materials. There are also computers and internet access for patrons to use. The Kigali Public Library is a popular destination for students, researchers, and book lovers, and it is a great place to spend a quiet afternoon reading or studying. The library is located in the heart of Kigali, close to many hotels and other attractions. It is easily accessible by car or public transportation, making it a convenient choice for visitors.',
         'price': '\$50',
-        'imageUrl': 'https://kplonline.org/images/kplfrontqq.jpg',
+        'imageUrl': 'assets/kplfrontqq.jpg',
       },
     ];
     return Scaffold(
@@ -204,8 +203,11 @@ class _PlaceCardState extends State<PlaceCard> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Image.network(widget.imageUrl,
-                  fit: BoxFit.cover, width: double.infinity, height: 150),
+              // Image.network(widget.imageUrl,
+                  // fit: BoxFit.cover, width: double.infinity, height: 150),
+                  Image(
+                    image: AssetImage(widget.imageUrl),
+                    fit: BoxFit.cover, width: double.infinity, height: 150),
               SizedBox(height: 8),
               Text(widget.placeName,
                   style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),

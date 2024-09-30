@@ -172,9 +172,8 @@ class _PlaceDetailsScreenState extends State<PlaceDetailsScreen> {
                 height: 250,
                 child: PageView(
                   children: [
-                    Image.network(widget.imageUrl, fit: BoxFit.cover),
-                    Image.network(widget.imageUrl, fit: BoxFit.cover),
-                    Image.network(widget.imageUrl, fit: BoxFit.cover),
+                    // Image.network(widget.imageUrl, fit: B
+                    Image.asset(widget.imageUrl, fit: BoxFit.cover),
                   ],
                 ),
               ),
